@@ -1,0 +1,163 @@
+@charset "utf-8";
+/*CSS Document*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3d6c6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #352a31;
+    line-height: 1.6;
+}
+
+header{
+    text-align: center;
+    color: #352a31;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+    color: #352a31;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+h2{
+    text-align: center;
+    color: #352a31;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 1.2rem 0;
+}
+
+h3{
+    text-align: center;
+    color: #352a31;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0.8rem 0;
+}
+
+h5{
+    color: #352a31;
+    font-weight: 600;
+}
+
+p{
+    color: #b31f7d;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0.8rem 0;
+}
+
+.about-image,
+.care-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+
+.team-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card-img-top {
+    height: 240px;
+    object-fit: cover;
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #352a31 !important;
+}
+
+.nav-link {
+    color: #352a31 !important;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    color: #d4a574 !important;
+}
+
+.card {
+    border: 1px solid rgba(91, 57, 74, 0.1);
+    border-radius: 0.8rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+    color: #352a31;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-text {
+    color: #5b394a;
+    font-size: 14px;
+}
+
+.accordion-button {
+    color: #352a31;
+    font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f7e8d0;
+    color: #352a31;
+}
+
+.accordion-body {
+    color: #5b394a;
+    font-size: 15px;
+}
+
+.btn {
+    font-weight: 600;
+    border-radius: 0.6rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #5b394a;
+    border-color: #5b394a;
+}
+
+.btn-primary:hover {
+    background-color: #422737;
+    border-color: #422737;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table td, table th {
+    padding: 10px;
+    text-align: left;
+}
